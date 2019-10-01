@@ -1,0 +1,36 @@
+    body {
+     background-color: #ffffff;
+     color: #000000;
+     font-size: 12pt;
+     font-family: 'Nunito', sans-serif;
+  }
+
+
+   a{
+   margin: center;
+   color: black;
+   font-size: 12pt;
+   font-family: 'Source Sans Pro', sans-serif;
+   text-decoration: none;
+
+   }
+
+
+
+  nav {
+  border-top
+  }
+
+ ul {
+  list-style-type: none;
+ }
+
+ li {
+  display: inline;
+  font-family: 'Source Sans Pro', sans-serif;
+ }
+
+  img{
+  height: 34pt;
+  width: 34pt;
+  }
