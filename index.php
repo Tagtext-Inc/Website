@@ -1,13 +1,16 @@
-  <?php
+<?php
 
-      require "header.php";
+    require "header.php";
 
-   ?>
+ ?>
+    <main>
+        <section class ="section-default">
+      <!--p class="login-status">You are logged out!</p-->
+      <!--p class="logout-status"> Welcome to Tagtext!</p-->
+    </section>
+  </div>
+</main>
 
-   <main>
-   <p>You have successfully logged out!</p>
-   </main>
-
-   <?php
-      require "footer.php";
-    ?>
+ <?php
+    require "footer.php";
+  ?>

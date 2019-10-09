@@ -1,26 +1,6 @@
-<?php  ?>
-<!DOCTYPE html>
- <!--head>
-   <body>
-       <link rel = "stylesheet" type ="text/css" href="style.css">
-     </body>
-<main>
-
-     <section class ="section-default">
-     <a href ="header.php"><img src="img/tagtextlogo.png" alt="logo" class="responsive"></a>
-     <form action ="includes/signup.inc.php" method ="post">
-       <div class ="boxsignup">
-       <input type = "text" name = "uid" placeholder="Email or Full Name">
-       <input type = "password" name = "pwd" placeholder="Password">
-       <button type="submit" name="login-submit">login</button>
-     </form>
- </section>
-</div>
-</main>
-
 <?php
- require "footer.php";
-?>
+   require "header.php";
+   require "login.inc.php";
 
    <?php if( isset($_SESSION['username']) && !empty($_SESSION['username']) )
 {
@@ -29,7 +9,7 @@
 <?php }else{ ?>
      <a href="login.php">Login</a>
      <a href="register.php">Register</a>
-<?php }
+<?php } ?>
 
    $error = ""; //Variable for storing our errors.
    if(isset($_POST["submit"]))
